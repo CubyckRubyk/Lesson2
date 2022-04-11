@@ -1,0 +1,16 @@
+
+.body {
+    margin: 0;
+
+}
+.box {
+    width: 70vw;
+    height: 50vh;
+    background: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
