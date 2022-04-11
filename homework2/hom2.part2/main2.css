@@ -30,8 +30,9 @@ body {
 }
 
 .header {
-    font-size: x-large;
-    margin-top: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: brown;
 }
 
 .txt {
@@ -39,22 +40,23 @@ body {
     font-family: Candara, sans-serif;
     text-align: center;
     width: 80%;
-    line-height: 30px;
+    line-height: 15px;
 }
 
 .button {
     width: 100px;
     height: 30px;
+    background: #75d7b1;
     border: double;
     border: 2px #afa9a9;
     border-style: solid;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
 
 }
 
-.fa-solid fa-star {
-    margin-top: 40px;
-    font-size: 40px;
-    color: brown;
+.fa-solid {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #918f8f;
 }
