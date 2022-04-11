@@ -8,9 +8,43 @@
     height: 50vh;
     background: cadetblue;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     margin: 20px;
     padding: 5px;
     box-sizing: border-box;
 
+}
+.row {
+    width: 99%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    background: darkviolet;
+    margin: 10px;
+}
+.card {
+    width: 49%;
+    height: 95%;
+    background: #75d7b1;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+.image {
+margin: 20px;
+    font-size: 30px;
+    opacity: 50%;
+}
+.text {
+
+}
+.header {
+    margin: 1px;
+    margin-top: 6px;
+    font-size: 20px;
+}
+.info {
+    margin: 1px;
+    margin-top: 6px;
 }
